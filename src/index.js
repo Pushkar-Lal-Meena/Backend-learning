@@ -7,9 +7,6 @@ dotenv.config({
 })
 
 
-
-
-
 connectDB()
 
 
@@ -41,7 +38,7 @@ const app =express()
         })
 
     } catch (error) {
-        console.error("ERROR",Error)
+        console.error("ERROR",error)
         throw err
     }
 }) ()
