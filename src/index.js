@@ -6,6 +6,7 @@ dotenv.config({
     path: './env'
 })
 
+//https://drive.google.com/drive/folders/11hsAuVauLC1JsS93fqOoVMk6SPrHCkVI
 
 connectDB()
 
